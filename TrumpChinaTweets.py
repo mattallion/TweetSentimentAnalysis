@@ -5,7 +5,7 @@ auth = tweepy.OAuthHandler("", "")                                      #enter y
 auth.set_access_token("", "")                                           #enter your tweepy authentication
 api = tweepy.API(auth)
 
-searchTerm = "China"                                                    #change the searchTerm to analyze sentiment of different tweets
+searchTerm = "china"                                                    #change the searchTerm to find different tweets (no caps)
 screenName = 'realDonaldTrump'                                          #enter a screenName of desired account
 
 now = datetime.today().now()
